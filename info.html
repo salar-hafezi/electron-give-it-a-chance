@@ -13,8 +13,15 @@
 			<p>
 			Here is your test app :) <br />
 			<strong>Version 1.0.0</strong><br />
-			<small>Built with love by <a href="https://github.com/salar-hafezi">Salar Hafezi</a></small>
+			<small>Built with love by <a href="#" onclick="shell.openExternal('https://github.com/salar-hafezi')">Salar Hafezi</a></small>
 			</p>
+			<p><a href="#" onclick="ipc.sendSync('closeInfoWindow')">Close this...</a></p>
 		</main>
 	</body>
+
+	<script>
+	let electron = require('electron')
+	let shell = electron.shell
+	let ipc = electron.ipcRenderer
+	</script>
 </html>
