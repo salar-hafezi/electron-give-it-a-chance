@@ -2,7 +2,23 @@
   "name": "electron-give-it-a-test",
   "description": "A test project based on electron to evaluate its pros & cons",
   "version": "1.0.0",
+  "main": "app/main.js",
   "devDependencies": {
-    "electron": "^1.7.9"
+    "electron": "^1.7.9",
+    "electron-packager": "^9.1.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-react": "^3.1.0",
+    "gulp-run": "^1.7.1",
+    "react" : "^16.0.0",
+    "react-dom": "^16.0.0",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "electron-reload": "^1.2.2",
+    "lodash": "^4.17.4",
+    "jquery" : "^3.2.1"
   }
 }

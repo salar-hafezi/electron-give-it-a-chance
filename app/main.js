@@ -7,7 +7,7 @@ app.on('ready', () => {
 	let appWindow = new BrowserWindow({
 		show: false
 	})
-	appWindow.loadURL('https://www.google.com')
+	appWindow.loadURL('file://' + __dirname + '/index.html')
 
 	let infoWindow = new BrowserWindow({
 		width: 400,
@@ -20,9 +20,6 @@ app.on('ready', () => {
 
 	appWindow.once('ready-to-show', () => {
 		appWindow.show()
-		setTimeout(() => {
-			infoWindow.show()
-		}, 1000)
 	})
 	
 	ipc.on('closeInfoWindow', (event, arg) => {
