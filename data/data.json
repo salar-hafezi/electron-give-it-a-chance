@@ -1,0 +1,38 @@
+[
+    {
+        "fileName": "test 1",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    },
+    {
+        "fileName": "test 2",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    },
+    {
+        "fileName": "test 3",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    },
+    {
+        "fileName": "test 4",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    },
+    {
+        "fileName": "test 5",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    },
+    {
+        "fileName": "test 6",
+        "ownerName": "Person",
+        "lastModifiedDate": "2017-06-20 15:00",
+        "description": "Some desc for this file"
+    }
+]
