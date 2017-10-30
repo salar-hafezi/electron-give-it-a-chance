@@ -7,7 +7,7 @@ app.on('ready', () => {
 	let appWindow = new BrowserWindow({
 		show: false
 	})
-	appWindow.loadURL('file://' + __dirname + '/index.html')
+	appWindow.loadURL('file://' + __dirname + '/build/index.html')
 
 	let infoWindow = new BrowserWindow({
 		width: 400,
@@ -16,7 +16,7 @@ app.on('ready', () => {
 		//transparent: true,
 		show: false
 	})
-	infoWindow.loadURL('file://' + __dirname + '/info.html')
+	infoWindow.loadURL('file://' + __dirname + '/build/info.html')
 
 	appWindow.once('ready-to-show', () => {
 		appWindow.show()
