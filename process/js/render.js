@@ -1,3 +1,5 @@
+const React = require('react')
+const ReactDOM = require('react-dom')
 const $ = jQuery = require('jquery')
 const bootstrap = require('bootstrap')
 
